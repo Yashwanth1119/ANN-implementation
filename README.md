@@ -1,18 +1,26 @@
 # ANN-implementation
-ANN implementation DLCVNLP
+ANN-implementation
 
-# Basic-environment-setup
-## Important commands --------------------
+## important commands ---------------
 
-Specifying a location for an environment
-
-### Creating envs -
+### creating envs -
 
 ```bash
-  conda create --prefix ./envs python=3.7 -y
+conda create --prefix ./envs python=3.7 -y
 ```
-### Activate env -
+
+### activate env
 
 ```bash
-  conda activate ./envs
+conda activate ./envs
 ```
+
+### yml file
+
+```bash
+  conda env export > environment.yml
+```
+
+## Reference -
+
+* [Conda env commands](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
